@@ -18,6 +18,23 @@ def get_json_str(content: str) -> str:
     text = aes.decrypt(data).decode('utf8')
     return text[:text.rfind('}')+1]    # 不知道为什么文件末尾会有奇怪的字符
 
+import re
+
+def rewrite_urls_in_string(text):
+    # Regular expression pattern to find URLs in the specified format
+    pattern = r'https://[^/]+/(https://.*)'
+    
+    # Function to replace the matched URL with the new format
+    def replace_url(match):
+        return match.group(1)  # Return the part after the first slash
+
+    # Use re.sub to replace all occurrences of the pattern
+    rewritten_text = re.sub(pattern, replace_url, text)
+    
+    return rewritten_text
+
+
+
 
 res = requests.get(CONFIG_URL)
 res.encoding = 'utf-8'
@@ -27,6 +44,7 @@ for i, line in enumerate(lines):
     if line.startswith('"lives"') and LIVE_URL in line:
         lines[i] = line.replace(LIVE_URL, CUSTOM_LIVE_URL) + '//' + line
         break
+lines = [rewrite_urls_in_string(line) for line in lines]
 with open('main.json', 'w', encoding='utf-8', newline='\n') as f:
     f.writelines(lines)
 
