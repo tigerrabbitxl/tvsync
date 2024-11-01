@@ -1,0 +1,8 @@
+http://127.0.0.1:9978/file/TVBox/quark.txt
+http://127.0.0.1:9978/file/TVBox/uc.txt
+https://github.moeyy.xyz/https://raw.githubusercontent.com/PizazzGY/TVBox/main/JS/樱花动漫.js
+http://127.0.0.1:9978/file/TVBox/bilibili.txt
+https://github.moeyy.xyz/https://raw.githubusercontent.com/PizazzGY/TVBox/main/JS/小熊弹幕.js
+https://github.moeyy.xyz/https://raw.githubusercontent.com/PizazzGY/TVBox/main/XYQHiker/哔嘀影视.json
+https://github.moeyy.xyz/https://raw.githubusercontent.com/PizazzGY/TVBox/main/js/drpy2.min.js
+https://github.moeyy.xyz/https://raw.githubusercontent.com/PizazzGY/TVBox/main/js/短剧合集.js

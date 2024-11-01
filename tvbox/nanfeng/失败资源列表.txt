@@ -1,0 +1,8 @@
+http://127.0.0.1:9978/file/TVBox/peizhi.json
+http://127.0.0.1:9978/file/TVBox/youtubecookie.json
+http://127.0.0.1:35455/tv.m3u
+http://127.0.0.1:35455/tptv.m3u
+http://127.0.0.1:35455/bililive.m3u
+http://127.0.0.1:35455/huyayqk.m3u
+http://127.0.0.1:35455/douyuyqk.m3u
+http://127.0.0.1:35455/yylunbo.m3u
