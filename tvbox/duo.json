@@ -4,65 +4,49 @@
       "url": "clan://localhost/tvbox/wangpan/wangpan.json",
       "name": "🚀①网盘线路"
     },
-     {
-      "url": "clan://localhost/tvbox/One/One.json",
-      "name": "🚀②One线路"
+    {
+      "url": "clan://localhost/tvbox/pg/jsm.json",
+      "name": "🚀②PG线路"
     },		
     {
-      "url": "clan://localhost/tvbox/daozhang/daozhang.json",
-      "name": "🚀③道长线路"
-    },
-    {
       "url": "clan://localhost/tvbox/zhenxin/zhenxin.json",
-      "name": "🚀④真心线路"
+      "name": "🚀③真心线路"
     },	
     {
-      "url": "clan://localhost/tvbox/OK/OK.json",
-      "name": "🚀⑤OK线路"
-    },
-    {
       "url": "clan://localhost/tvbox/fty/fty.json",
-      "name": "🚀⑥饭太硬线路"
+      "name": "🚀④饭太硬线路"
     }, 
     {
       "url": "clan://localhost/tvbox/xiaosa/xiaosa.json",
-      "name": "🚀⑦潇洒线路"
-    },	
+      "name": "🚀⑤潇洒线路"
+    },
     {
-      "url": "clan://localhost/tvbox/xiangyaqing/xiangyaqing.json",
-      "name": "🚀⑧香雅情线路"
-	},  
+      "url": "clan://localhost/tvbox/duanju/duanju.json",
+      "name": "🚀⑥短剧线路"
+    }, 		 
     {
-      "url": "clan://localhost/tvbox/feimao/feimao.json",
-      "name": "🚀⑨肥猫线路"
+      "url": "clan://localhost/tvbox/OK/OK.json",
+      "name": "🚀⑦OK线路"
     },		
     {
-      "url": "clan://localhost/tvbox/T4/T4.json",
-      "name": "🚀⑩T4线路"
-    },
-    {
       "url": "clan://localhost/tvbox/wangerxiao/wangerxiao.json",
-      "name": "🚀⑪放牛线路"
+      "name": "🚀⑧放牛线路"
     },
-    {
-      "url": "clan://localhost/tvbox/gaotianliuyun/gaotianliuyun.json",
-      "name": "🚀⑫高天流云"
-    },	
-    {
-      "url": "clan://localhost/tvbox/wuyiyun/wuyiyun.json",
-      "name": "🚀⑬无意线路"
-    },	
-    {
+     {
       "url": "clan://localhost/tvbox/miaoyingshi/miaoyingshi.json",
-      "name": "🚀⑭喵影视线路"
-    },
+      "name": "🚀⑨D喵影视线路"
+    },	
     {
       "url": "clan://localhost/tvbox/nanfeng/nanfeng.json",
-      "name": "🚀⑮南风线路"
+      "name": "🚀⑩南风线路"
     }, 	
     {
-      "url": "clan://localhost/tvbox/qinglong/qinglong.json",
-      "name": "🚀⑯青龙线路"
-    }
+      "url": "clan://localhost/tvbox/moyu/moyu.json",
+      "name": "🚀⑪摸鱼线路"
+    },
+    {
+      "url": "clan://localhost/tvbox/xiangyaqing/xiangyaqing.json",
+      "name": "🚀⑫香雅情线路"
+    }	
   ]
 }
