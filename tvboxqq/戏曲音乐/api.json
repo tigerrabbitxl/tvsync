@@ -1,10 +1,21 @@
-//关注微信公众号：奇奇乐分享，发送“本地包”，获取本地包更新链接与图文教程。
+//资源全部免费，仅供测试交流，请勿内置传播与转卖；关注微信公众号：奇奇乐分享，发送“本地包”获取教程与更多资源！
 
 {
     "spider": "./spider.jar",
     "wallpaper": "https://tuapi.eees.cc/api.php?category=fengjing&type=302",
     "logo": "http://php.540734621.xyz/logo/logo.php",
     "sites": [
+        {
+            "key": "本地包更新",
+            "name": "💞本地包｜1116",
+            "type": 3,
+            "api": "csp_Market",
+            "jar": "./jars/gx.jar",
+            "searchable": 0,
+            "changeable": 0,
+            "indexs": 0,
+            "ext": "http://bd.qiqiv.cn/666.json"
+        },
         {
             "key": "戏 曲",
             "name": "🎈国粹戏曲",
@@ -46,16 +57,6 @@
             "ext": "./json/演唱会.json"
         },
         {
-            "key": "哔哩哔哩",
-            "name": "🅱️哔哩大全",
-            "type": 3,
-            "api": "csp_Bili",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "./json/Bili.json"
-        },
-        {
             "key": "MTV",
             "name": "🎧明星┃MV",
             "type": 3,
@@ -84,24 +85,14 @@
             "changeable": 0
         },
         {
-            "key": "js_a8音乐",
-            "name": "🎸A8音乐",
+            "key": "哔哩哔哩",
+            "name": "🅱️哔哩大全",
             "type": 3,
-            "api": "./api/drpy2.min.js",
+            "api": "csp_Bili",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "./js/a8yy.js"
-        },
-        {
-            "key": "哔哩直播",
-            "name": "🅱️哔哩直播",
-            "type": 3,
-            "api": "./api/drpy2.min.js",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 1,
-            "ext": "./js/blzb.js"
+            "ext": "./json/Bili.json"
         },
         {
             "key": "csp_Bili短剧",
@@ -122,65 +113,6 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "./json/影视解说.json"
-        },
-        {
-            "key": "88js",
-            "name": "⚽ 88┃看球",
-            "type": 3,
-            "api": "./api/drpy2.min.js",
-            "ext": "./js/88看球.js",
-            "playerType": 1,
-            "style": {
-                "type": "list"
-            },
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0
-        },
-        {
-            "key": "Jrsjs",
-            "name": "⚽ Jrs┃球迷",
-            "type": 3,
-            "api": "./api/drpy2.min.js",
-            "ext": "./js/jrk.js",
-            "playerType": 1,
-            "style": {
-                "type": "list"
-            },
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0
-        },
-        {
-            "key": "js_310直播",
-            "name": "🥎┃三一┃直播",
-            "type": 3,
-            "api": "./api/drpy2.min.js",
-            "searchable": 1,
-            "playerType": 1,
-            "quickSearch": 1,
-            "filterable": 0,
-            "ext": "./js/310.js"
-        },
-        {
-            "key": "虎牙直播",
-            "name": "🐯虎牙直播",
-            "type": 3,
-            "api": "./api/drpy2.min.js",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 1,
-            "ext": "./js/huyazhibo.js"
-        },
-        {
-            "key": "斗鱼直播",
-            "name": "🐟斗鱼直播",
-            "type": 3,
-            "api": "./api/drpy2.min.js",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 1,
-            "ext": "./js/douyu.js"
         }
     ],
     "parses": [
